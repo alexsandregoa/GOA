@@ -1,5 +1,4 @@
-for i in range(10):
-    print("alex")
+#Sequencing – კოდი სრულდება ზემოდან ქვემოთ
 print(                                   )
 #Control Flow განმარტება: tells you რა რიგით უნდა გაკეთდეს კოდი
 
