@@ -19,7 +19,7 @@ else:
     print("Kindergarten")
 print(                             )
 grade = int(input("Enter your grade: "))
-if grade > 100:
+if grade == 100:
     print("A group")
 elif grade < 80 and grade > 99:
     print("B group")
@@ -27,13 +27,14 @@ else:
     print("D or C")
 print(                             )
 name = input("Enter your name: ")
-if name != "a" and name != "e" and name != "i" and name != "o" and name != "u" and name != "y":
-    print("name without Vowels")
-else:
+if name == "a" or name == "e" or name == "i" or name == "o" or name == "u" or name == "y":
     print("name with Vowels")
-print(                                )
-age = int(input("Enter your age: "))
-if age+40 > 40:
-    print("You are old")
 else:
-    print("You will be old soon")
+    print("name without Vowels")
+print(                                )
+age = age + 20
+age = int(input("Enter your age: "))
+if age == 40 or age > 40:
+    print("You've gotten older.")
+else:
+    print("You will get older soon")
