@@ -32,3 +32,4 @@ if condition1 and condition2:
     print("Both conditions are TRUE")
 else:
     print("One or both conditions are FALSE")
+    
