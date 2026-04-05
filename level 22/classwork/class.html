@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- მონაცემთა ბაზები და სერვერები -->
+
+    <!-- maxlength -> მაქსიმალური character ების რაოდენობას უწერს ინფუთს -->
+    <!-- minlength -> მინიმალურ character ების რაოდენობას უწერს ინფუთს-->
+    <!-- name -> ანიშნებს სერვერს რომელ column შ გადააგზავნოს ეს კონკრეტული ინფუთ, ჯერჯერობიუთ უბრალოთ კარგი პრაქტიკის სახით გაუწერეთ ინფუთებს -->
+    <!-- reqiured -> ხდის ინფუთის შევსებას აუცილებელს-->
+    
+    <center>
+        <h1>feedback</h1>
+        <form>
+            <label for="name">Enter your name</label><br>
+            <input type="text" id="name" placeholder="name" name="name" maxlength="24" minlength="3" required><br><br>
+
+            <label for="comments">Enter comment</label><br>
+            <input type="text" id="comments" placeholder="comments" name="comments" maxlength="14" minlength="4" required><br><br>
+            <h1>your mood</h1>
+            <br>
+            <label for="excellent">excellent</label>
+            <input type="radio" name="rate your experience" id="excellent" required><br><br>
+                        <br>
+            <label for="good">good</label>
+            <input type="radio" name="rate your experience" id="good" required><br><br>
+                                   <br>
+            <label for="average">average</label>
+            <input type="radio" name="rate your experience" id="average" required><br><br>
+                                                <br>
+            <label for="poor">poor</label>
+            <input type="radio" name="rate your experience" id="poor" required><br><br>
+
+            <input type="submit" value="submit feedback"> <!-- აქ შეგვეძლო ჩაგვესვა <button type="submit">Submit</button> -->
+        </form>
+    </center>
+</body>
+</html>
