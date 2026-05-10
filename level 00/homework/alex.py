@@ -47,4 +47,4 @@ forward(30)
 
 
 
-exitonclick()
+exitonclick()   
